@@ -1,0 +1,45 @@
+.row {
+  background-color: slategray;
+}
+
+div {
+  padding: 20px;
+}
+
+#nombre {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#titulo {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+@media (min-width: 576px) {
+  #fotodeperfil {
+    position: absolute;
+    width: 15%;
+    margin-top: -10%;
+    margin-left: 1%;
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px black;
+  }
+}
+
+@media (min-width: 576px) {
+  #nombre {
+    align-items: center;
+  }
+}
+
+@media (max-width: 575px) {
+  #fotodeperfil {
+    position: absolute;
+    width: 32%;
+    margin-top: -25%;
+    margin-left: 25%;
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px black;
+  }
+}

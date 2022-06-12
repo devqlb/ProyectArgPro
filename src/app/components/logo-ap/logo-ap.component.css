@@ -1,3 +1,47 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.redes {
+  margin-right: 1em;
+}
+
 #logoAP {
   width: 150px;
+}
+
+img {
+  width: 60px;
+}
+
+.btn {
+  margin-left: 1em;
+  box-shadow: 3px 3px 12px black;
+  font-size: large;
+}
+
+/*--- VISTA CELULAR ---*/
+@media (max-width: 575px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .redes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .redes img {
+    margin-bottom: 0.5em;
+  }
+
+  .btn {
+    box-shadow: 3px 3px 12px black;
+    font-size: large;
+    margin-bottom: 30px;
+    margin-top: 10px;
+  }
 }
