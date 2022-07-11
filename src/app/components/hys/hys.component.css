@@ -1,4 +1,8 @@
 .row {
-  background-color: slategray;
+  background-color: #222;
   padding: 20px;
+}
+
+h1 {
+  color: #ffffff;
 }

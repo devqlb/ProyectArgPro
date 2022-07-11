@@ -1,6 +1,13 @@
+h1,
+h2,
+h3,
+p {
+  color: #fefefe;
+}
+
 .row {
   padding: 20px;
-  background-color: slategrey;
+  background-color: #131313;
 }
 
 .contenedor {
@@ -13,5 +20,5 @@
   text-align: justify;
 }
 .img-proyecto {
-  box-shadow: 10px 10px 30px black;
+  box-shadow: 2px 2px 8px greenyellow;
 }

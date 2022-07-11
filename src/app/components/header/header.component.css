@@ -1,8 +1,3 @@
-div {
-  background-color: slategray;
-}
-
-app-social {
-  float: right;
-  margin-top: 25px;
+.row {
+  background-color: #222;
 }

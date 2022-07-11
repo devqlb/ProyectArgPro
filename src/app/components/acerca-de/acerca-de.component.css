@@ -1,5 +1,10 @@
+h1,
+p {
+  color: #fefefe;
+}
+
 .row {
-  background-color: slategray;
+  background-color: #222;
 }
 
 div {

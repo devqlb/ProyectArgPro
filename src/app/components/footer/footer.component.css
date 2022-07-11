@@ -1,12 +1,14 @@
+p {
+  color: #fefefe;
+}
+
 .row {
-  background-color: slategray;
+  background-color: #222;
   padding-top: 20px;
 }
 footer {
-  color: #fefefe;
-  font-size: 20px;
+  font-size: 15px;
   display: flex;
   flex-direction: column;
   text-align: center;
-  box-shadow: 10px 10px 30px black;
 }

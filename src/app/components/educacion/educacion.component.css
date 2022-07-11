@@ -1,8 +1,16 @@
+h1,
+h2,
+h3,
+li,
+p {
+  color: #fefefe;
+}
+
 .row {
   padding: 20px;
 }
 div {
-  background-color: slategray;
+  background-color: #131313;
 }
 
 h1,
