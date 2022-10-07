@@ -4,9 +4,10 @@
       <img src="../../../assets/logo redes svg/APLogo-20-20.png" id="logoAP">
     </div>
     <div class="redes">
-      <a href=""><img src="../../../assets/logo redes svg/linkedin-icon-2-logo-svgrepo-com.svg" alt=""></a>
+      <a href="https://www.linkedin.com/in/quiroga-laspiur-benjamin/"><img
+          src="../../../assets/logo redes svg/linkedin-icon-2-logo-svgrepo-com.svg" alt=""></a>
 
-      <a href=""><img src="../../../assets/logo redes svg/github-svgrepo-com.svg" alt=""></a>
+      <a href=" https://github.com/devqlb "><img src="../../../assets/logo redes svg/github.png" alt=""></a>
 
       <a href=""><img src="../../../assets/logo redes svg/twitter-svgrepo-com.svg" alt=""></a>
 
@@ -17,8 +18,15 @@
       <a href=""><img src="../../../assets/logo redes svg/instagram-svgrepo-com.svg" alt=""></a>
 
       <button type="button" class="btn btn-primary"
-        style="--bs-btn-padding-y: .35rem; --bs-btn-padding-x: .99rem; --bs-btn-font-size: .99rem;">
+        style="--bs-btn-padding-y: .35rem; --bs-btn-padding-x: .99rem; --bs-btn-font-size: .99rem;" (click)="login()"
+        *ngIf="!isLogged">
         INGRESO
+      </button>
+
+      <button type="button" class="btn btn-primary"
+        style="--bs-btn-padding-y: .35rem; --bs-btn-padding-x: .99rem; --bs-btn-font-size: .99rem;" (click)="onLogOut()"
+        *ngIf="isLogged">
+        CERRAR SESIÓN
       </button>
 
     </div>
